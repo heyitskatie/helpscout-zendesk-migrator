@@ -1,0 +1,15 @@
+{
+  "id": 123456789,
+  "number": 4521,
+  "subject": "Question about my recent reservation",
+  "status": "closed",
+  "createdAt": "2022-06-14T15:32:10Z",
+  "createdBy": {
+    "first": "Jamie",
+    "last": "Rivera",
+    "email": "jamie.rivera@example.com"
+  },
+  "_embedded": {
+    "threads": []
+  }
+}

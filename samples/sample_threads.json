@@ -1,0 +1,28 @@
+{
+  "_embedded": {
+    "threads": [
+      {
+        "id": 987654321,
+        "type": "customer",
+        "createdAt": "2022-06-14T15:32:10Z",
+        "createdBy": {
+          "first": "Jamie",
+          "last": "Rivera",
+          "email": "jamie.rivera@example.com"
+        },
+        "body": "<p>Hi, I wanted to confirm my check-in time for this weekend.</p>"
+      },
+      {
+        "id": 987654322,
+        "type": "message",
+        "createdAt": "2022-06-14T16:05:44Z",
+        "createdBy": {
+          "first": "Support",
+          "last": "Team",
+          "email": "support@example.com"
+        },
+        "body": "<p>Hi Jamie, check-in starts at 3:00 PM. Looking forward to having you!</p>"
+      }
+    ]
+  }
+}
