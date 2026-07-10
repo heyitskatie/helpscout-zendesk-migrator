@@ -107,7 +107,7 @@ class ZendeskClient:
     ) -> dict[str, Any]:
         """Submit a single ticket via the bulk ticket import endpoint."""
         url = f"{self.settings.zendesk_base_url}/api/v2/imports/tickets/create_many"
-        payload = {
+        payload: dict[str, Any] = {
             "tickets": [
                 {
                     "group_id": group_id,
